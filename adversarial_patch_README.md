@@ -10,6 +10,12 @@ Adversarial patches are a type of adversarial example that can be printed and pl
 2. The effect of different attack parameters (epsilon, iterations, patch size)
 3. The difference between targeted attacks (making a detector see a truck) and untargeted attacks (hiding a person)
 
+## Demonstration
+
+![Adversarial Patch Attack Animation](patch_attack.gif)
+
+The animation above shows a targeted attack in action, where the adversarial patch gradually transforms the detector's prediction from "Person" to "Truck." Note how the bounding box and label change color from green to red as the attack progresses.
+
 ## Features
 
 - **Interactive 3D Visualization**: Built with Three.js for an immersive experience
