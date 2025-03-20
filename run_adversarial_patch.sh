@@ -7,7 +7,7 @@ if ! command -v python3 &> /dev/null; then
 fi
 
 echo "Starting server for Adversarial Patch Attack Visualization"
-echo "Open your browser and navigate to: http://localhost:8000/Patch-Am/adversarial_patch_attack.html"
+echo "Open your browser and navigate to: http://localhost:8000/adversarial_patch_attack.html"
 echo "Press Ctrl+C to stop the server"
 
 # Start the server
