@@ -74,25 +74,6 @@ This visualization uses HTML5, JavaScript, and Three.js to create an interactive
 ```
 4. Open your browser to [http://localhost:8000/adversarial_patch_attack.html](http://localhost:8000/adversarial_patch_attack.html)
 
-## Educational Applications
-
-This visualization helps explain:
-- The threat model of adversarial attacks in computer vision
-- How localized patches differ from whole-image perturbations
-- The influence of different parameters on attack effectiveness
-- The difference between targeted and untargeted attacks
-- How adversarial examples exploit neural network vulnerabilities
-
-## Further Research & Implications
-
-Adversarial patches highlight important security concerns for AI systems:
-- Self-driving cars could misidentify traffic signs
-- Surveillance systems could miss or misclassify people
-- Content moderation systems could be bypassed
-- Medical imaging diagnostics could be manipulated
-
-Research in this area continues to evolve as both attacks and defenses become more sophisticated.
-
 ## License
 
 MIT 
