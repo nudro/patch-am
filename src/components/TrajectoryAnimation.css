@@ -1,0 +1,64 @@
+.trajectory-svg {
+  background-color: white;
+  border-radius: 8px;
+}
+
+.class-region {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.class-region-i {
+  background-color: #3f51b5;
+  width: 180px;
+  height: 180px;
+  top: 15%;
+  left: 10%;
+}
+
+.class-region-t {
+  background-color: #f50057;
+  width: 180px;
+  height: 180px;
+  top: 15%;
+  right: 10%;
+}
+
+.decision-boundary {
+  transition: opacity 0.3s ease;
+}
+
+.progress-label {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Animation effects */
+.trajectory-path {
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: drawPath 10s linear forwards;
+}
+
+@keyframes drawPath {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .class-region {
+    width: 120px;
+    height: 120px;
+  }
+} 

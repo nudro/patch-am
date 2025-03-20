@@ -1,0 +1,35 @@
+.app-container {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+/* Override MUI styles for better readability */
+.MuiTypography-root sub {
+  font-size: 65%;
+  position: relative;
+  bottom: -0.25em;
+  vertical-align: baseline;
+}
+
+/* Animation container styling */
+.animation-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Custom button styling */
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+  border-radius: 30px;
+  padding: 8px 24px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .app-container {
+    padding-top: 1rem;
+  }
+} 
